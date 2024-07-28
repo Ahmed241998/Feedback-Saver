@@ -55,4 +55,4 @@ with st.form(key="action_plan_form"):
             # Add the new vendor data to the existing data
             updated_df = pd.concat([existing_data, action_data], ignore_index=True)
             conn.update(worksheet='Data',data=updated_df)
-            
+!pipreqs ./

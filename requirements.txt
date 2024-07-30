@@ -3,4 +3,3 @@ st-gsheets-connection
 pandas==1.4.4
 datetime
 numpy==1.24.3
-streamlit_gsheets

@@ -29,7 +29,7 @@ with st.form(key="action_plan_form"):
     tzinfo = timezone(timedelta(hours=timezone_offset))
     date = datetime.now(tzinfo)
     name = st.text_input(label="Name")
-    machine_name = st.selectbox("Machine", machine_name,default = "Select Machine")
+    machine_name = st.selectbox("Machine", machine_name,placeholder = "Select Machine")
     problem = st.text_area(label="Problem Details")
     action = st.text_area(label="Action Details")
     submit_button = st.form_submit_button(label="Submit")

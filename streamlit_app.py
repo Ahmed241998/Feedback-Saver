@@ -37,7 +37,7 @@ with st.form(key="action_plan_form"):
     # If the submit button is pressed
     if submit_button:
         # Check if all mandatory fields are filled
-        if not name or not machine_name or not action:
+        if not name or not machine_name :
             st.warning("Ensure all mandatory fields are filled.")
             st.stop()
         else:

@@ -69,6 +69,6 @@ with st.form(key="action_plan_form"):
             )
             # Add the new vendor data to the existing data
             updated_df = pd.concat([existing_data, action_data], ignore_index=True)
-            conn.update(worksheet='Action Details',data=updated_df)
+            conn.update(worksheet='Operators Data',data=updated_df)
             st.success("Action is submitted")
 

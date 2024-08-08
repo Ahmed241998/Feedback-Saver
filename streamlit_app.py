@@ -35,7 +35,7 @@ machine_name = [
     "LSF07",
     "LSF09",
     "LSF10",
-    "Shampoo Cell",
+    "Shampoo Cell"
 ]
 # Onboarding New Vendor Form
 with st.form(key="action_plan_form"):

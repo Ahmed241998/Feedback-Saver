@@ -28,7 +28,7 @@ machine_name = [
     "Tub1",
     "Tub2",
     "Tub3",
-    "LJar",
+    "LJAR",
     "LSH07",
     "LSH09",
     "LSF06",

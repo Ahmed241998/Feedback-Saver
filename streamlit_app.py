@@ -34,6 +34,7 @@ machine_name = [
     "LSF07",
     "LSF09",
     "LSF10",
+    "Shampoo Cell",
     "All Machines"
 ]
 # Onboarding New Vendor Form

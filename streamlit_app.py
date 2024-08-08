@@ -27,8 +27,6 @@ machine_name = [
     "Kit4",
     "Tub1",
     "Tub2",
-    "Tub3",
-    "LJAR",
     "LSH07",
     "LSH09",
     "LSF06",
